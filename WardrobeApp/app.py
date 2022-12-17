@@ -13,10 +13,14 @@ win.geometry("220x500")
 
 
 #Create a canvas object
-
+#create a title 
 win.title("Outluk")
+
+#adding an image
 img = ImageTk.PhotoImage(Image.open("logoo.png"))
 
+
+#when clicking the button redirect to next page and exiting from running page 
 def nextpage():
     win.destroy()
     import pageone
@@ -25,8 +29,8 @@ def nextpage():
 canvas= Canvas(win, width=220 , height= 500, bg="white")
 canvas.create_text(110, 250, text="Outluk", fill="black", font=('Helvetica 15 bold'))
 canvas.pack()
-canvas.create_image(90,180,anchor=NW,image=img)
-btn = Button( win,text='>', width=1,height=1, bd='10',command=nextpage)
+canvas.create_image(80,180,anchor=NW,image=img)
+btn = Button( win,text='>', width=1,height=1,command=nextpage)
 btn.place(x=180, y=450)
 
 win.mainloop()

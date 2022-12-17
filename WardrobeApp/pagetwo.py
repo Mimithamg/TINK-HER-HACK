@@ -59,7 +59,7 @@ class WardrobeApp:
         # add the initial clothes onto the screen
         self.tops_frame.pack(fill=tk.BOTH, expand=tk.YES)
         self.bottoms_frame.pack(fill=tk.BOTH, expand=tk.YES)
-
+    #ceating buttons
     def create_buttons(self):
         top_prev_button = tk.Button(self.tops_frame, text="Prev", command=self.get_prev_top)
         top_prev_button.pack(side=tk.LEFT)
