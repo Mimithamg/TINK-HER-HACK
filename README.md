@@ -30,3 +30,7 @@ A Tkinter app that automates your closet and generates an outfit.
 
 2) Run the File  
 `python3 app.py`   
+
+
+# First Commit
+Created a Frontend Portion of our application using Tkinter module of Python..Still in Progress
