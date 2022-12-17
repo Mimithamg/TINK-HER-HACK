@@ -4,16 +4,18 @@ A Tkinter app that automates your closet and generates an outfit.
 
 ## Team Members
 
-## Team members
+[Mimitha M G](https://github.com/Mimithamg)
 
-[Mimitha M G]
 [Sreni Saji](https://github.com/Sre-n)
-[Anagha Jayan]
-[Urmila T Anilan]
+
+[Anagha Jayan](https://github.com/AnaghaJn21)
+
+[Urmila T Anilan](https://github.com/urmila-13)
 
 ## Table of Contents
 
-* [Technologies Used](#Technologies Used)
+* [Technologies](#Technologies)
+
 * [Setup](#LocalSetup)
 
 
