@@ -4,6 +4,7 @@ from PIL import ImageTk, Image
 
 
 
+
 #Create an instance of tkinter frame
 win= Tk()
 
@@ -16,12 +17,16 @@ win.geometry("220x500")
 win.title("Outluk")
 img = ImageTk.PhotoImage(Image.open("logoo.png"))
 
+def nextpage():
+    win.destroy()
+    import pageone
+
 #Add a text in Canvas
 canvas= Canvas(win, width=220 , height= 500, bg="white")
 canvas.create_text(110, 250, text="Outluk", fill="black", font=('Helvetica 15 bold'))
 canvas.pack()
 canvas.create_image(90,180,anchor=NW,image=img)
-btn = Button( text='>', width=1,height=1, bd='10')
+btn = Button( win,text='>', width=1,height=1, bd='10',command=nextpage)
 btn.place(x=180, y=450)
 
 win.mainloop()
