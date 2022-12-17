@@ -1,12 +1,15 @@
 import os
 import random
 
+from tkinter import *
+from PIL import ImageTk, Image
+
 import tkinter as tk
 from PIL import Image, ImageTk
 from playsound import playsound
 
 # change any of these constants to style and make it your own!
-WINDOW_TITLE = 'Wardrobe App'
+WINDOW_TITLE = 'Outluk'
 WINDOW_WIDTH = 220
 WINDOW_HEIGHT = 500
 IMG_HEIGHT = 200
@@ -75,6 +78,9 @@ class WardrobeApp:
 
         bottom_next_button = tk.Button(self.bottoms_frame, text="Next", command=self.get_next_bottom)
         bottom_next_button.pack(side=tk.RIGHT)
+
+        button = tk.Button( text="+", command=nextpage)
+        button.pack(side=tk.BOTTOM)
 
     def create_photo(self, image, frame):
         top_image_file = Image.open(image)
@@ -150,8 +156,15 @@ class WardrobeApp:
         playsound(SOUND_EFFECT_FILE_PATH)
 
 
-if __name__ == '__main__':
-    root = tk.Tk()
-    app = WardrobeApp(root)
 
-    root.mainloop()
+
+def nextpage():
+	root.destroy()
+	import pageC
+
+#if __name__ == '__main__':
+root = tk.Tk()
+
+app = WardrobeApp(root)
+
+root.mainloop()

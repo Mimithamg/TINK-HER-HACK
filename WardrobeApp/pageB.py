@@ -1,7 +1,6 @@
 #Import the required library
 from tkinter import *
 from PIL import ImageTk, Image
-import pagetwo
 
 
 
@@ -20,10 +19,19 @@ win.title("Outluk")
 def nextPage():
     win.destroy()
     import pagetwo
+    from pagetwo import WardrobeApp
+
+img = ImageTk.PhotoImage(Image.open("logoo.png"))
+canvas= Canvas(win, width=220 , height= 500, bg='#E3C396')
+canvas.pack()
+canvas.create_image(80,150,anchor=NW,image=img)
 
 
+img = ImageTk.PhotoImage(Image.open("closet1.png"))
+canvas.create_image(0,0,anchor=NW,image=img)
 
-btn = Button( win,text='visit your wardrobe',command=nextPage)
+
+btn = Button( win,text='visit your wardrobe',command=nextPage,border=2)
 btn.place(x=50,y=230 )
 
 

@@ -26,7 +26,7 @@ def nextpage():
     import pageone
 
 #Add a text in Canvas
-canvas= Canvas(win, width=220 , height= 500, bg="white")
+canvas= Canvas(win, width=220 , height= 500, bg='#E3C396')
 canvas.create_text(110, 250, text="Outluk", fill="black", font=('Helvetica 15 bold'))
 canvas.pack()
 canvas.create_image(80,180,anchor=NW,image=img)
