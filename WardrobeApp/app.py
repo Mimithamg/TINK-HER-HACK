@@ -23,7 +23,15 @@ img = ImageTk.PhotoImage(Image.open("logoo.png"))
 #when clicking the button redirect to next page and exiting from running page 
 def nextpage():
     win.destroy()
-    import pageone
+    from pageX import login_page
+    root = Tk()
+    obj = login_page(root)
+    root.mainloop()
+
+    
+
+
+    
 
 #Add a text in Canvas
 canvas= Canvas(win, width=220 , height= 500, bg='#E3C396')
