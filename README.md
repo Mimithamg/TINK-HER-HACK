@@ -21,7 +21,7 @@ A Tkinter app that automates your closet and generates an outfit.
 ## Our Design Prototype
 
 https://www.figma.com/file/i1RsY4kRB3DQnziXtaK6p4/OutLuk?node-id=0%3A1&t=tkx9SD9nHRy0U9ZS-0
-
+https://www.figma.com/proto/i1RsY4kRB3DQnziXtaK6p4/OutLuk?node-id=1%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A180&show-proto-sidebar=1
 
 ## Technologies
 * [Tkinter]
