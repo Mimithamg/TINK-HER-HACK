@@ -33,9 +33,12 @@ canvas= Canvas(win, width=220 , height= 500, bg='#E3C396')
 canvas.create_text(110,30, text="your selected pair", fill="black", font=('Helvetica 15 bold'))
 canvas.pack()
 canvas.create_image(80,430,anchor=NW,image=img)
+
+#crating button
 btn = Button( win,text='move it to washbox')
 btn.place(x=50, y=400)
 
+#creating another button
 btn2 = Button( win,text='<', width=1,height=1,command=prevPage)
 btn2.place(x=30, y=450)
 
