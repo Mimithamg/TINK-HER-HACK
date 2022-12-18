@@ -24,13 +24,13 @@ A Tkinter app that automates your closet and generates an outfit.
 
 This personalised fashion-stylist app is built to help you:
 
-♦Avoid decision fatigue by knowing 'what to wear' in every situation
+-Avoid decision fatigue by knowing 'what to wear' in every situation
 
-♦Create your optimal "capsule" wardrobe with the tap of a button
+-Create your optimal "capsule" wardrobe with the tap of a button
 
-♦Control your wardrobe and save time and money
+-Control your wardrobe and save time and money
 
-♦Dress smart, be confident and look sharp
+-Dress smart, be confident and look sharp
 
 ## Stacks we Learned
 
