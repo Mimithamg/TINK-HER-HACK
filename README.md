@@ -1,4 +1,5 @@
 # TINK-HER-HACK
+
 # WardrobeApp
 
 A Tkinter app that automates your closet and generates an outfit.
@@ -62,12 +63,18 @@ https://www.figma.com/proto/i1RsY4kRB3DQnziXtaK6p4/OutLuk?node-id=1%3A3&scaling=
 * [Pillow]
 * [Playsound]
 
+## Pre-requisites
+    ''' create database login;
+    use login;
+    create table login_details( f_name VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, password VARCHAR(50) NOT NULL, PRIMARY KEY ( email ) ); '''
+
+
 ## LocalSetup
 1) Install All Dependencies   
 `pip3 install -r requirements.txt`
 
 2) Run the File  
-`python3 app.py`   
+`python3 app.py`
 
 
 # First Commit
