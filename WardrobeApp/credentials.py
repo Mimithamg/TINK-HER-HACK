@@ -2,4 +2,4 @@
 host = 'localhost'
 user = 'root'
 password = 'password'
-database = 'student_database'
+database = 'login'

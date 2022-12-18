@@ -48,7 +48,7 @@ class login_page:
             try:
                 connection=pymysql.connect(host=cr.host, user=cr.user, password=cr.password, database=cr.database)
                 cur = connection.cursor()
-                cur.execute("select * from student_register where email=%s and password=%s",(self.email_entry.get(),self.password_entry.get()))
+                cur.execute("select * from login_details where email=%s and password=%s",(self.email_entry.get(),self.password_entry.get()))
                 row=cur.fetchone()
                 if row == None:
                     messagebox.showerror("Error!","Invalid USERNAME & PASSWORD",parent=self.window)

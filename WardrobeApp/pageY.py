@@ -55,14 +55,14 @@ class SignUp:
             try:
                 connection = pymysql.connect(host=cr.host, user=cr.user, password=cr.password, database=cr.database)
                 cur = connection.cursor()
-                cur.execute("select * from student_register where email=%s",self.email_txt.get())
+                cur.execute("select * from login_details where email=%s",self.email_txt.get())
                 row=cur.fetchone()
 
                 # Check if th entered email id is already exists or not.
                 if row!=None:
                     messagebox.showerror("Error!","The email id is already exists, please try again with another email id",parent=self.window)
                 else:
-                    cur.execute("insert into student_register (f_name,email,password) values(%s,%s,%s)",
+                    cur.execute("insert into login_details (f_name,email,password) values(%s,%s,%s)",
                                     (
                                         self.fname_txt.get(),
                                         #self.lname_txt.get(),
