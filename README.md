@@ -42,7 +42,7 @@ This personalised fashion-stylist app is built to help you:
 - MySQL
 - Database Connectivity(mysql-python-connector)
 - Postman
-- Reffered AI-ML models
+- Refered AI-ML models
 
 # Description
 
@@ -52,23 +52,58 @@ And there comes the concept helps you to declutter your closet, create various o
 
 ## Problems Encountered
 
-- It took us almost three hours to find out a bug in linking two pages
-- Was a bit difficult to connect database and show connectivity while linking 
+- It took us almost three hours to find out a bug in linking two pages in Tkinter. Fixed it.
+- It was a bit difficult to connect database and show connectivity while linking. Fixed it.
+- Not able to store and retrieve images from mysql database.
+- Unable to deploy as a mobile application.
+- Used a local database to store users credentials as could not use cloud database.
 
 ## Our Design Prototype
 
 https://www.figma.com/file/i1RsY4kRB3DQnziXtaK6p4/OutLuk?node-id=0%3A1&t=tkx9SD9nHRy0U9ZS-0
 https://www.figma.com/proto/i1RsY4kRB3DQnziXtaK6p4/OutLuk?node-id=1%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A180&show-proto-sidebar=1
 
-## Technologies
-* [Tkinter]
-* [Pillow]
-* [Playsound]
+## Video Glimpses
+
+- Figma UI
+https://www.loom.com/share/b5ccad6b9c9549d592c8e57a8ed6b730
+
+- Tkinter App
+https://www.loom.com/share/94514c3a990d41739e0037dc36cd080c
+
+## Screenshots
+
+![1 (1)](https://user-images.githubusercontent.com/114649294/208283352-d971719c-647c-4459-b4af-03ed8b2b4426.png)
+![2](https://user-images.githubusercontent.com/114649294/208283351-7a7abfaf-ce4e-4798-8b93-337b56b49509.png)
+
+![3](https://user-images.githubusercontent.com/114649294/208283348-afd32054-7869-4470-801f-76be3fe4bfbb.png)
+![4](https://user-images.githubusercontent.com/114649294/208283346-d6c5d903-ea9a-4903-98e1-a2fef75b434c.png)
+
+![5](https://user-images.githubusercontent.com/114649294/208283340-8b3e4355-6c64-41e7-bbe8-184c2e39c54f.png)
+![6](https://user-images.githubusercontent.com/114649294/208283343-84fe0071-3939-495a-bee6-020a040846c2.png)
+
+![7](https://user-images.githubusercontent.com/114649294/208283354-90354f8a-c025-4cb3-a65e-8d2679170c43.png)
+![8](https://user-images.githubusercontent.com/114649294/208283353-d64def8f-e040-4116-963c-f8d4e92b3074.png)
+
 
 ## Pre-requisites
-    create database login;
-    use login;
-    create table login_details( f_name VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, password VARCHAR(50) NOT NULL, PRIMARY KEY ( email ) );
+The following queries to be executed in MySql 
+
+`create database login;`
+
+ `use login;`
+ 
+    create table login_details(
+ 
+    f_name VARCHAR(50) NOT NULL,
+ 
+    email VARCHAR(100) NOT NULL,
+ 
+    password VARCHAR(50) NOT NULL,
+ 
+    PRIMARY KEY ( email )
+ 
+    );`
     
 
 
