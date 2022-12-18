@@ -15,6 +15,10 @@ A Tkinter app that automates your closet and generates an outfit.
 
 [Urmila T Anilan](https://github.com/urmila-13)
 
+## Abstract
+
+[ABSTRACT.pdf](https://github.com/Sre-n/TINK-HER-HACK/files/10253107/ABSTRACT.pdf)
+
 ## Objective
 
 Our personal fashion-stylist app was built to help you:
@@ -43,11 +47,10 @@ Many of us might have encountered this problem more often when you open your war
 
 And there comes the concept helps you to declutter your closet, create various options for you to wear instead of stuffing items you will never put on and also saves you a lot of money that you would have otherwise used to buy more clothes.
 
-## Table of Contents
+## Problems Encountered
 
-* [Technologies](#Technologies)
-
-* [Setup](#LocalSetup)
+- It took us almost three hours to find out a bug in linking two pages
+- Was a bit difficult to connect database and show connectivity while linking 
 
 ## Our Design Prototype
 
