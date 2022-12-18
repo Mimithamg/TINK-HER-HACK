@@ -120,7 +120,7 @@ Created a Frontend Portion of our application using Tkinter module of Python..St
 
 # Second Commit
 Modified the UI a bit more and improved its functionality
-Protyping successfully completed in Tkinter
+Prototyping successfully completed in Tkinter
 Added Design Protype redirection of our UI in readme
 
 # Third Commit
